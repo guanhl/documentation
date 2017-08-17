@@ -11,7 +11,7 @@ Our custom installer changes nothing more than the kernel, and you can also find
 ## Loading debian-installer from the network
 ### Setting up the TFTP server
 
-Back to your dnsmasq server (check [this link](../DHCP-TFTP-Server-UEFI.md) for instructions on how to setup your own TFTP/DCHP server), download the required Debian installer files at your tftp-root directory. In this example, this directory is configured to `/srv/tftp`.
+Back to your dnsmasq server (check [this link](./DHCP-TFTP-Server-UEFI.md) for instructions on how to setup your own TFTP/DCHP server), download the required Debian installer files at your tftp-root directory. In this example, this directory is configured to `/srv/tftp`.
 
 Since the kernel, initrd and GRUB 2 is part of the debian-installer tarball (`netboot.tar.gz`), that is the only file you will need to download and use.
 
